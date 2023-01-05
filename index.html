@@ -1,0 +1,1289 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<title>行情看板</title>
+<body>
+
+<div class="page">
+    <div class="banner">
+        <div class="ui stackable four column grid">
+            <!--
+            <div class="column">
+                <div class="ui inverted segment">
+                    <div class="">股价排行榜</div>
+                    <div class="ui inverted relaxed divided list">
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">深证成指</span>
+                                <span class="fr red" >11304.74</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">中小100</span>
+                                <span class="fr red" >7497.1</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">中证1000</span>
+                                <span class="fr red" >6473.25</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">中证500</span>
+                                <span class="fr red" >6005.44</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">沪深300</span>
+                                <span class="fr red" >3959.46</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">上证指数</span>
+                                <span class="fr red" >3150.99</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">上证50</span>
+                                <span class="fr red" >2694.55</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">创业板指</span>
+                                <span class="fr red" >2387.09</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">贵州茅台</span>
+                                <span class="fr red" >1786.8</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">深次新股</span>
+                                <span class="fr red" >686.07</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <div class="column">
+                <div class="ui inverted segment">
+                    <div class="">涨幅排行榜</div>
+                    <div class="ui inverted relaxed divided list">
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">紫光股份</span>
+                                <span class="fr red">7.27%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">华友钴业</span>
+                                <span class="fr red">6.69%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">泸州老窖</span>
+                                <span class="fr red">5.94%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">五 粮 液</span>
+                                <span class="fr red">5.25%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">宁德时代</span>
+                                <span class="fr red">5.14%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">东方财富</span>
+                                <span class="fr red">4.60%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">天赐材料</span>
+                                <span class="fr red">4.54%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">洋河股份</span>
+                                <span class="fr red">4.41%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">天齐锂业</span>
+                                <span class="fr red">4.28%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">山西汾酒</span>
+                                <span class="fr red">3.62%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui inverted segment">
+                    <div class="">跌幅排行榜</div>
+                    <div class="ui inverted relaxed divided list">
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">生 意 宝</span>
+                                <span class="fr green">-6.00%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">温氏股份</span>
+                                <span class="fr green">-2.24%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">绿地控股</span>
+                                <span class="fr green">-1.90%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">正邦科技</span>
+                                <span class="fr green">-1.66%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">华夏幸福</span>
+                                <span class="fr green">-1.57%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">绿盟科技</span>
+                                <span class="fr green">-1.55%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">启明星辰</span>
+                                <span class="fr green">-1.45%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">神火股份</span>
+                                <span class="fr green">-1.29%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">东阿阿胶</span>
+                                <span class="fr green">-1.23%</span></div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">用友网络</span>
+                                <span class="fr green">-1.13%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui inverted segment">
+                    <div class="">成交量排行榜</div>
+                    <div class="ui inverted relaxed divided list">
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">深证成指</span>
+                                <span class="fr red">268466889手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">恒生科技指数ETF</span>
+                                <span class="fr red">36349025手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">中小100</span>
+                                <span class="fr red">23073506手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">创业板指</span>
+                                <span class="fr red">9700670手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">深次新股</span>
+                                <span class="fr red">2295967手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">京东方Ａ</span>
+                                <span class="fr green">2056291手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">东方财富</span>
+                                <span class="fr red">2003496手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">上证指数</span>
+                                <span class="fr red">1598644手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">紫光股份</span>
+                                <span class="fr red">1348456手</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <span class="banner-item-name">平安银行</span>
+                                <span class="fr red">1249015手</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <ul class="stock-list">
+            <li id="sh000001" onmouseover="mouseOver(sh000001)" data-inverted="" data-tooltip="当前价: 3150.99  涨跌幅: 0.88%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    上证指数
+                </div>
+
+                <div class="red">
+                    3150.99 0.88%
+                </div>
+            </li>
+            <li id="sz399001" onmouseover="mouseOver(sz399001)" data-inverted="" data-tooltip="当前价: 11304.74  涨跌幅: 1.89%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    深证成指
+                </div>
+
+                <div class="red">
+                    11304.74 1.89%
+                </div>
+            </li>
+            <li id="sz399006" onmouseover="mouseOver(sz399006)" data-inverted="" data-tooltip="当前价: 2387.09  涨跌幅: 2.23%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    创业板指
+                </div>
+
+                <div class="red">
+                    2387.09 2.23%
+                </div>
+            </li>
+            <li id="sz399005" onmouseover="mouseOver(sz399005)" data-inverted="" data-tooltip="当前价: 7497.1  涨跌幅: 2.01%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中小100
+                </div>
+
+                <div class="red">
+                    7497.1 2.01%
+                </div>
+            </li>
+            <li id="sh000300" onmouseover="mouseOver(sh000300)" data-inverted="" data-tooltip="当前价: 3959.46  涨跌幅: 1.71%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    沪深300
+                </div>
+
+                <div class="red">
+                    3959.46 1.71%
+                </div>
+            </li>
+            <li id="sh000016" onmouseover="mouseOver(sh000016)" data-inverted="" data-tooltip="当前价: 2694.55  涨跌幅: 1.64%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    上证50
+                </div>
+
+                <div class="red">
+                    2694.55 1.64%
+                </div>
+            </li>
+            <li id="sh000905" onmouseover="mouseOver(sh000905)" data-inverted="" data-tooltip="当前价: 6005.44  涨跌幅: 0.89%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中证500
+                </div>
+
+                <div class="red">
+                    6005.44 0.89%
+                </div>
+            </li>
+            <li id="sh000852" onmouseover="mouseOver(sh000852)" data-inverted="" data-tooltip="当前价: 6473.25  涨跌幅: 0.81%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中证1000
+                </div>
+
+                <div class="red">
+                    6473.25 0.81%
+                </div>
+            </li>
+            <li id="sz399678" onmouseover="mouseOver(sz399678)" data-inverted="" data-tooltip="当前价: 686.07  涨跌幅: 0.54%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    深次新股
+                </div>
+
+                <div class="red">
+                    686.07 0.54%
+                </div>
+            </li>
+            <li id="sh513180" onmouseover="mouseOver(sh513180)" data-inverted="" data-tooltip="当前价: 0.59  涨跌幅: 2.42%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    恒生科技指数ETF
+                </div>
+
+                <div class="red">
+                    0.59 2.42%
+                </div>
+            </li>
+            <li id="sh600104" onmouseover="mouseOver(sh600104)" data-inverted="" data-tooltip="当前价: 14.49  涨跌幅: 0.56%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    上汽集团
+                </div>
+
+                <div class="red">
+                    14.49 0.56%
+                </div>
+            </li>
+            <li id="sz002236" onmouseover="mouseOver(sz002236)" data-inverted="" data-tooltip="当前价: 11.67  涨跌幅: 0.86%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    大华股份
+                </div>
+
+                <div class="red">
+                    11.67 0.86%
+                </div>
+            </li>
+            <li id="sz002415" onmouseover="mouseOver(sz002415)" data-inverted="" data-tooltip="当前价: 34.31  涨跌幅: 1.15%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    海康威视
+                </div>
+
+                <div class="red">
+                    34.31 1.15%
+                </div>
+            </li>
+            <li id="sz300369" onmouseover="mouseOver(sz300369)" data-inverted="" data-tooltip="当前价: 11.44  涨跌幅: -1.55%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    绿盟科技
+                </div>
+
+                <div class="green">
+                    11.44 -1.55%
+                </div>
+            </li>
+            <li id="sz002439" onmouseover="mouseOver(sz002439)" data-inverted="" data-tooltip="当前价: 27.85  涨跌幅: -1.45%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    启明星辰
+                </div>
+
+                <div class="green">
+                    27.85 -1.45%
+                </div>
+            </li>
+            <li id="sh601360" onmouseover="mouseOver(sh601360)" data-inverted="" data-tooltip="当前价: 6.75  涨跌幅: -0.74%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    三六零
+                </div>
+
+                <div class="green">
+                    6.75 -0.74%
+                </div>
+            </li>
+            <li id="sz002268" onmouseover="mouseOver(sz002268)" data-inverted="" data-tooltip="当前价: 32.48  涨跌幅: -0.06%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    卫 士 通
+                </div>
+
+                <div class="green">
+                    32.48 -0.06%
+                </div>
+            </li>
+            <li id="sz000002" onmouseover="mouseOver(sz000002)" data-inverted="" data-tooltip="当前价: 19.29  涨跌幅: 1.15%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    万 科Ａ
+                </div>
+
+                <div class="red">
+                    19.29 1.15%
+                </div>
+            </li>
+            <li id="sh600048" onmouseover="mouseOver(sh600048)" data-inverted="" data-tooltip="当前价: 16.37  涨跌幅: 2.18%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    保利发展
+                </div>
+
+                <div class="red">
+                    16.37 2.18%
+                </div>
+            </li>
+            <li id="sh600340" onmouseover="mouseOver(sh600340)" data-inverted="" data-tooltip="当前价: 2.5  涨跌幅: -1.57%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    华夏幸福
+                </div>
+
+                <div class="green">
+                    2.5 -1.57%
+                </div>
+            </li>
+            <li id="sh600606" onmouseover="mouseOver(sh600606)" data-inverted="" data-tooltip="当前价: 3.09  涨跌幅: -1.90%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    绿地控股
+                </div>
+
+                <div class="green">
+                    3.09 -1.90%
+                </div>
+            </li>
+            <li id="sz001979" onmouseover="mouseOver(sz001979)" data-inverted="" data-tooltip="当前价: 13.53  涨跌幅: -0.15%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    招商蛇口
+                </div>
+
+                <div class="green">
+                    13.53 -0.15%
+                </div>
+            </li>
+            <li id="sh601668" onmouseover="mouseOver(sh601668)" data-inverted="" data-tooltip="当前价: 5.57  涨跌幅: -0.54%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国建筑
+                </div>
+
+                <div class="green">
+                    5.57 -0.54%
+                </div>
+            </li>
+            <li id="sh600031" onmouseover="mouseOver(sh600031)" data-inverted="" data-tooltip="当前价: 16.28  涨跌幅: 1.43%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    三一重工
+                </div>
+
+                <div class="red">
+                    16.28 1.43%
+                </div>
+            </li>
+            <li id="sh601669" onmouseover="mouseOver(sh601669)" data-inverted="" data-tooltip="当前价: 7.09  涨跌幅: 0.28%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国电建
+                </div>
+
+                <div class="red">
+                    7.09 0.28%
+                </div>
+            </li>
+            <li id="sh601800" onmouseover="mouseOver(sh601800)" data-inverted="" data-tooltip="当前价: 8.25  涨跌幅: 0.12%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国交建
+                </div>
+
+                <div class="red">
+                    8.25 0.12%
+                </div>
+            </li>
+            <li id="sh601186" onmouseover="mouseOver(sh601186)" data-inverted="" data-tooltip="当前价: 7.91  涨跌幅: -0.25%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国铁建
+                </div>
+
+                <div class="green">
+                    7.91 -0.25%
+                </div>
+            </li>
+            <li id="sz000651" onmouseover="mouseOver(sz000651)" data-inverted="" data-tooltip="当前价: 34.0  涨跌幅: 2.07%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    格力电器
+                </div>
+
+                <div class="red">
+                    34.0 2.07%
+                </div>
+            </li>
+            <li id="sz000333" onmouseover="mouseOver(sz000333)" data-inverted="" data-tooltip="当前价: 54.72  涨跌幅: 1.80%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    美的集团
+                </div>
+
+                <div class="red">
+                    54.72 1.80%
+                </div>
+            </li>
+            <li id="sz002709" onmouseover="mouseOver(sz002709)" data-inverted="" data-tooltip="当前价: 44.86  涨跌幅: 4.54%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    天赐材料
+                </div>
+
+                <div class="red">
+                    44.86 4.54%
+                </div>
+            </li>
+            <li id="sz300498" onmouseover="mouseOver(sz300498)" data-inverted="" data-tooltip="当前价: 18.74  涨跌幅: -2.24%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    温氏股份
+                </div>
+
+                <div class="green">
+                    18.74 -2.24%
+                </div>
+            </li>
+            <li id="sz000933" onmouseover="mouseOver(sz000933)" data-inverted="" data-tooltip="当前价: 14.51  涨跌幅: -1.29%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    神火股份
+                </div>
+
+                <div class="green">
+                    14.51 -1.29%
+                </div>
+            </li>
+            <li id="sh600307" onmouseover="mouseOver(sh600307)" data-inverted="" data-tooltip="当前价: 1.69  涨跌幅: -0.59%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    酒钢宏兴
+                </div>
+
+                <div class="green">
+                    1.69 -0.59%
+                </div>
+            </li>
+            <li id="sh601225" onmouseover="mouseOver(sh601225)" data-inverted="" data-tooltip="当前价: 18.42  涨跌幅: 0.88%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    陕西煤业
+                </div>
+
+                <div class="red">
+                    18.42 0.88%
+                </div>
+            </li>
+            <li id="sh601088" onmouseover="mouseOver(sh601088)" data-inverted="" data-tooltip="当前价: 27.53  涨跌幅: -0.72%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国神华
+                </div>
+
+                <div class="green">
+                    27.53 -0.72%
+                </div>
+            </li>
+            <li id="sz002603" onmouseover="mouseOver(sz002603)" data-inverted="" data-tooltip="当前价: 29.49  涨跌幅: 0.61%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    以岭药业
+                </div>
+
+                <div class="red">
+                    29.49 0.61%
+                </div>
+            </li>
+            <li id="sh600276" onmouseover="mouseOver(sh600276)" data-inverted="" data-tooltip="当前价: 39.64  涨跌幅: 2.24%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    恒瑞医药
+                </div>
+
+                <div class="red">
+                    39.64 2.24%
+                </div>
+            </li>
+            <li id="sh600196" onmouseover="mouseOver(sh600196)" data-inverted="" data-tooltip="当前价: 36.01  涨跌幅: 0.95%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    复星医药
+                </div>
+
+                <div class="red">
+                    36.01 0.95%
+                </div>
+            </li>
+            <li id="sh601607" onmouseover="mouseOver(sh601607)" data-inverted="" data-tooltip="当前价: 18.15  涨跌幅: 0.67%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    上海医药
+                </div>
+
+                <div class="red">
+                    18.15 0.67%
+                </div>
+            </li>
+            <li id="sz000952" onmouseover="mouseOver(sz000952)" data-inverted="" data-tooltip="当前价: 7.65  涨跌幅: -0.78%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    广济药业
+                </div>
+
+                <div class="green">
+                    7.65 -0.78%
+                </div>
+            </li>
+            <li id="sz002737" onmouseover="mouseOver(sz002737)" data-inverted="" data-tooltip="当前价: 25.88  涨跌幅: -0.12%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    葵花药业
+                </div>
+
+                <div class="green">
+                    25.88 -0.12%
+                </div>
+            </li>
+            <li id="sz000423" onmouseover="mouseOver(sz000423)" data-inverted="" data-tooltip="当前价: 40.06  涨跌幅: -1.23%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    东阿阿胶
+                </div>
+
+                <div class="green">
+                    40.06 -1.23%
+                </div>
+            </li>
+            <li id="sh600436" onmouseover="mouseOver(sh600436)" data-inverted="" data-tooltip="当前价: 286.02  涨跌幅: 1.64%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    片仔癀
+                </div>
+
+                <div class="red">
+                    286.02 1.64%
+                </div>
+            </li>
+            <li id="sz300015" onmouseover="mouseOver(sz300015)" data-inverted="" data-tooltip="当前价: 30.9  涨跌幅: 0.68%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    爱尔眼科
+                </div>
+
+                <div class="red">
+                    30.9 0.68%
+                </div>
+            </li>
+            <li id="sh600763" onmouseover="mouseOver(sh600763)" data-inverted="" data-tooltip="当前价: 149.72  涨跌幅: 1.71%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    通策医疗
+                </div>
+
+                <div class="red">
+                    149.72 1.71%
+                </div>
+            </li>
+            <li id="sz300347" onmouseover="mouseOver(sz300347)" data-inverted="" data-tooltip="当前价: 107.76  涨跌幅: 2.43%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    泰格医药
+                </div>
+
+                <div class="red">
+                    107.76 2.43%
+                </div>
+            </li>
+            <li id="sz300003" onmouseover="mouseOver(sz300003)" data-inverted="" data-tooltip="当前价: 22.88  涨跌幅: 0.13%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    乐普医疗
+                </div>
+
+                <div class="red">
+                    22.88 0.13%
+                </div>
+            </li>
+            <li id="sh600549" onmouseover="mouseOver(sh600549)" data-inverted="" data-tooltip="当前价: 20.36  涨跌幅: 2.52%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    厦门钨业
+                </div>
+
+                <div class="red">
+                    20.36 2.52%
+                </div>
+            </li>
+            <li id="sh600111" onmouseover="mouseOver(sh600111)" data-inverted="" data-tooltip="当前价: 25.87  涨跌幅: 1.45%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    北方稀土
+                </div>
+
+                <div class="red">
+                    25.87 1.45%
+                </div>
+            </li>
+            <li id="sh600449" onmouseover="mouseOver(sh600449)" data-inverted="" data-tooltip="当前价: 11.95  涨跌幅: -0.99%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    宁夏建材
+                </div>
+
+                <div class="green">
+                    11.95 -0.99%
+                </div>
+            </li>
+            <li id="sh601766" onmouseover="mouseOver(sh601766)" data-inverted="" data-tooltip="当前价: 5.15  涨跌幅: -0.19%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国中车
+                </div>
+
+                <div class="green">
+                    5.15 -0.19%
+                </div>
+            </li>
+            <li id="sh601002" onmouseover="mouseOver(sh601002)" data-inverted="" data-tooltip="当前价: 4.71  涨跌幅: -0.21%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    晋亿实业
+                </div>
+
+                <div class="green">
+                    4.71 -0.21%
+                </div>
+            </li>
+            <li id="sh603799" onmouseover="mouseOver(sh603799)" data-inverted="" data-tooltip="当前价: 59.33  涨跌幅: 6.69%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    华友钴业
+                </div>
+
+                <div class="red">
+                    59.33 6.69%
+                </div>
+            </li>
+            <li id="sz002340" onmouseover="mouseOver(sz002340)" data-inverted="" data-tooltip="当前价: 7.66  涨跌幅: 0.92%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    格林美
+                </div>
+
+                <div class="red">
+                    7.66 0.92%
+                </div>
+            </li>
+            <li id="sh603993" onmouseover="mouseOver(sh603993)" data-inverted="" data-tooltip="当前价: 4.63  涨跌幅: 1.31%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    洛阳钼业
+                </div>
+
+                <div class="red">
+                    4.63 1.31%
+                </div>
+            </li>
+            <li id="sz002466" onmouseover="mouseOver(sz002466)" data-inverted="" data-tooltip="当前价: 82.43  涨跌幅: 4.28%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    天齐锂业
+                </div>
+
+                <div class="red">
+                    82.43 4.28%
+                </div>
+            </li>
+            <li id="sz002460" onmouseover="mouseOver(sz002460)" data-inverted="" data-tooltip="当前价: 70.77  涨跌幅: 3.45%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    赣锋锂业
+                </div>
+
+                <div class="red">
+                    70.77 3.45%
+                </div>
+            </li>
+            <li id="sh601899" onmouseover="mouseOver(sh601899)" data-inverted="" data-tooltip="当前价: 10.44  涨跌幅: 1.36%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    紫金矿业
+                </div>
+
+                <div class="red">
+                    10.44 1.36%
+                </div>
+            </li>
+            <li id="sz300207" onmouseover="mouseOver(sz300207)" data-inverted="" data-tooltip="当前价: 21.53  涨跌幅: 3.11%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    欣旺达
+                </div>
+
+                <div class="red">
+                    21.53 3.11%
+                </div>
+            </li>
+            <li id="sh600887" onmouseover="mouseOver(sh600887)" data-inverted="" data-tooltip="当前价: 31.36  涨跌幅: 2.55%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    伊利股份
+                </div>
+
+                <div class="red">
+                    31.36 2.55%
+                </div>
+            </li>
+            <li id="sz002507" onmouseover="mouseOver(sz002507)" data-inverted="" data-tooltip="当前价: 25.95  涨跌幅: 0.78%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    涪陵榨菜
+                </div>
+
+                <div class="red">
+                    25.95 0.78%
+                </div>
+            </li>
+            <li id="sh600519" onmouseover="mouseOver(sh600519)" data-inverted="" data-tooltip="当前价: 1786.8  涨跌幅: 3.58%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    贵州茅台
+                </div>
+
+                <div class="red">
+                    1786.8 3.58%
+                </div>
+            </li>
+            <li id="sz000858" onmouseover="mouseOver(sz000858)" data-inverted="" data-tooltip="当前价: 187.99  涨跌幅: 5.25%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    五 粮 液
+                </div>
+
+                <div class="red">
+                    187.99 5.25%
+                </div>
+            </li>
+            <li id="sz000568" onmouseover="mouseOver(sz000568)" data-inverted="" data-tooltip="当前价: 234.13  涨跌幅: 5.94%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    泸州老窖
+                </div>
+
+                <div class="red">
+                    234.13 5.94%
+                </div>
+            </li>
+            <li id="sz002304" onmouseover="mouseOver(sz002304)" data-inverted="" data-tooltip="当前价: 164.65  涨跌幅: 4.41%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    洋河股份
+                </div>
+
+                <div class="red">
+                    164.65 4.41%
+                </div>
+            </li>
+            <li id="sh600809" onmouseover="mouseOver(sh600809)" data-inverted="" data-tooltip="当前价: 286.0  涨跌幅: 3.62%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    山西汾酒
+                </div>
+
+                <div class="red">
+                    286.0 3.62%
+                </div>
+            </li>
+            <li id="sz000799" onmouseover="mouseOver(sz000799)" data-inverted="" data-tooltip="当前价: 139.24  涨跌幅: 2.68%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    酒鬼酒
+                </div>
+
+                <div class="red">
+                    139.24 2.68%
+                </div>
+            </li>
+            <li id="sh601600" onmouseover="mouseOver(sh601600)" data-inverted="" data-tooltip="当前价: 4.46  涨跌幅: 0.22%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国铝业
+                </div>
+
+                <div class="red">
+                    4.46 0.22%
+                </div>
+            </li>
+            <li id="sz000807" onmouseover="mouseOver(sz000807)" data-inverted="" data-tooltip="当前价: 10.85  涨跌幅: -0.28%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    云铝股份
+                </div>
+
+                <div class="green">
+                    10.85 -0.28%
+                </div>
+            </li>
+            <li id="sh601006" onmouseover="mouseOver(sh601006)" data-inverted="" data-tooltip="当前价: 6.63  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    大秦铁路
+                </div>
+
+                <div class="green">
+                    6.63 0.00%
+                </div>
+            </li>
+            <li id="sh600125" onmouseover="mouseOver(sh600125)" data-inverted="" data-tooltip="当前价: 5.58  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    铁龙物流
+                </div>
+
+                <div class="green">
+                    5.58 0.00%
+                </div>
+            </li>
+            <li id="sh600688" onmouseover="mouseOver(sh600688)" data-inverted="" data-tooltip="当前价: 3.15  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    上海石化
+                </div>
+
+                <div class="green">
+                    3.15 0.00%
+                </div>
+            </li>
+            <li id="sh600801" onmouseover="mouseOver(sh600801)" data-inverted="" data-tooltip="当前价: 15.24  涨跌幅: 0.13%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    华新水泥
+                </div>
+
+                <div class="red">
+                    15.24 0.13%
+                </div>
+            </li>
+            <li id="sz000877" onmouseover="mouseOver(sz000877)" data-inverted="" data-tooltip="当前价: 8.79  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    天山股份
+                </div>
+
+                <div class="green">
+                    8.79 0.00%
+                </div>
+            </li>
+            <li id="sh600036" onmouseover="mouseOver(sh600036)" data-inverted="" data-tooltip="当前价: 38.61  涨跌幅: -0.10%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    招商银行
+                </div>
+
+                <div class="green">
+                    38.61 -0.10%
+                </div>
+            </li>
+            <li id="sz000001" onmouseover="mouseOver(sz000001)" data-inverted="" data-tooltip="当前价: 14.51  涨跌幅: 1.33%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    平安银行
+                </div>
+
+                <div class="red">
+                    14.51 1.33%
+                </div>
+            </li>
+            <li id="sh601336" onmouseover="mouseOver(sh601336)" data-inverted="" data-tooltip="当前价: 31.54  涨跌幅: 1.02%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    新华保险
+                </div>
+
+                <div class="red">
+                    31.54 1.02%
+                </div>
+            </li>
+            <li id="sh601318" onmouseover="mouseOver(sh601318)" data-inverted="" data-tooltip="当前价: 48.84  涨跌幅: 0.64%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国平安
+                </div>
+
+                <div class="red">
+                    48.84 0.64%
+                </div>
+            </li>
+            <li id="sh600030" onmouseover="mouseOver(sh600030)" data-inverted="" data-tooltip="当前价: 20.43  涨跌幅: 1.39%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中信证券
+                </div>
+
+                <div class="red">
+                    20.43 1.39%
+                </div>
+            </li>
+            <li id="sh601688" onmouseover="mouseOver(sh601688)" data-inverted="" data-tooltip="当前价: 12.09  涨跌幅: 1.60%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    华泰证券
+                </div>
+
+                <div class="red">
+                    12.09 1.60%
+                </div>
+            </li>
+            <li id="sz300059" onmouseover="mouseOver(sz300059)" data-inverted="" data-tooltip="当前价: 20.24  涨跌幅: 4.60%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    东方财富
+                </div>
+
+                <div class="red">
+                    20.24 4.60%
+                </div>
+            </li>
+            <li id="sh600150" onmouseover="mouseOver(sh600150)" data-inverted="" data-tooltip="当前价: 22.98  涨跌幅: -0.09%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国船舶
+                </div>
+
+                <div class="green">
+                    22.98 -0.09%
+                </div>
+            </li>
+            <li id="sh600685" onmouseover="mouseOver(sh600685)" data-inverted="" data-tooltip="当前价: 21.55  涨跌幅: -0.09%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中船防务
+                </div>
+
+                <div class="green">
+                    21.55 -0.09%
+                </div>
+            </li>
+            <li id="sh600072" onmouseover="mouseOver(sh600072)" data-inverted="" data-tooltip="当前价: 12.01  涨跌幅: -0.17%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中船科技
+                </div>
+
+                <div class="green">
+                    12.01 -0.17%
+                </div>
+            </li>
+            <li id="sh601611" onmouseover="mouseOver(sh601611)" data-inverted="" data-tooltip="当前价: 7.73  涨跌幅: 0.52%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国核建
+                </div>
+
+                <div class="red">
+                    7.73 0.52%
+                </div>
+            </li>
+            <li id="sh600029" onmouseover="mouseOver(sh600029)" data-inverted="" data-tooltip="当前价: 7.81  涨跌幅: 0.39%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    南方航空
+                </div>
+
+                <div class="red">
+                    7.81 0.39%
+                </div>
+            </li>
+            <li id="sh600115" onmouseover="mouseOver(sh600115)" data-inverted="" data-tooltip="当前价: 5.47  涨跌幅: 0.18%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中国东航
+                </div>
+
+                <div class="red">
+                    5.47 0.18%
+                </div>
+            </li>
+            <li id="sh600886" onmouseover="mouseOver(sh600886)" data-inverted="" data-tooltip="当前价: 10.82  涨跌幅: 0.28%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    国投电力
+                </div>
+
+                <div class="red">
+                    10.82 0.28%
+                </div>
+            </li>
+            <li id="sz300017" onmouseover="mouseOver(sz300017)" data-inverted="" data-tooltip="当前价: 5.7  涨跌幅: -0.35%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    网宿科技
+                </div>
+
+                <div class="green">
+                    5.7 -0.35%
+                </div>
+            </li>
+            <li id="sz300033" onmouseover="mouseOver(sz300033)" data-inverted="" data-tooltip="当前价: 103.51  涨跌幅: 3.57%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    同花顺
+                </div>
+
+                <div class="red">
+                    103.51 3.57%
+                </div>
+            </li>
+            <li id="sz300146" onmouseover="mouseOver(sz300146)" data-inverted="" data-tooltip="当前价: 23.83  涨跌幅: 2.49%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    汤臣倍健
+                </div>
+
+                <div class="red">
+                    23.83 2.49%
+                </div>
+            </li>
+            <li id="sz002095" onmouseover="mouseOver(sz002095)" data-inverted="" data-tooltip="当前价: 25.38  涨跌幅: -6.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    生 意 宝
+                </div>
+
+                <div class="green">
+                    25.38 -6.00%
+                </div>
+            </li>
+            <li id="sz300024" onmouseover="mouseOver(sz300024)" data-inverted="" data-tooltip="当前价: 9.28  涨跌幅: 0.32%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    机器人
+                </div>
+
+                <div class="red">
+                    9.28 0.32%
+                </div>
+            </li>
+            <li id="sz002273" onmouseover="mouseOver(sz002273)" data-inverted="" data-tooltip="当前价: 12.24  涨跌幅: 1.32%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    水晶光电
+                </div>
+
+                <div class="red">
+                    12.24 1.32%
+                </div>
+            </li>
+            <li id="sz002405" onmouseover="mouseOver(sz002405)" data-inverted="" data-tooltip="当前价: 11.9  涨跌幅: 0.42%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    四维图新
+                </div>
+
+                <div class="red">
+                    11.9 0.42%
+                </div>
+            </li>
+            <li id="sz002055" onmouseover="mouseOver(sz002055)" data-inverted="" data-tooltip="当前价: 9.1  涨跌幅: -0.33%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    得润电子
+                </div>
+
+                <div class="green">
+                    9.1 -0.33%
+                </div>
+            </li>
+            <li id="sz002594" onmouseover="mouseOver(sz002594)" data-inverted="" data-tooltip="当前价: 266.15  涨跌幅: 2.72%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    比亚迪
+                </div>
+
+                <div class="red">
+                    266.15 2.72%
+                </div>
+            </li>
+            <li id="sz300750" onmouseover="mouseOver(sz300750)" data-inverted="" data-tooltip="当前价: 403.75  涨跌幅: 5.14%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    宁德时代
+                </div>
+
+                <div class="red">
+                    403.75 5.14%
+                </div>
+            </li>
+            <li id="sz000725" onmouseover="mouseOver(sz000725)" data-inverted="" data-tooltip="当前价: 3.51  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    京东方Ａ
+                </div>
+
+                <div class="green">
+                    3.51 0.00%
+                </div>
+            </li>
+            <li id="sh600703" onmouseover="mouseOver(sh600703)" data-inverted="" data-tooltip="当前价: 17.59  涨跌幅: 0.86%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    三安光电
+                </div>
+
+                <div class="red">
+                    17.59 0.86%
+                </div>
+            </li>
+            <li id="sz000063" onmouseover="mouseOver(sz000063)" data-inverted="" data-tooltip="当前价: 26.51  涨跌幅: 0.26%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    中兴通讯
+                </div>
+
+                <div class="red">
+                    26.51 0.26%
+                </div>
+            </li>
+            <li id="sz000938" onmouseover="mouseOver(sz000938)" data-inverted="" data-tooltip="当前价: 24.04  涨跌幅: 7.27%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    紫光股份
+                </div>
+
+                <div class="red">
+                    24.04 7.27%
+                </div>
+            </li>
+            <li id="sz000977" onmouseover="mouseOver(sz000977)" data-inverted="" data-tooltip="当前价: 22.79  涨跌幅: -0.44%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    浪潮信息
+                </div>
+
+                <div class="green">
+                    22.79 -0.44%
+                </div>
+            </li>
+            <li id="sh600588" onmouseover="mouseOver(sh600588)" data-inverted="" data-tooltip="当前价: 24.6  涨跌幅: -1.13%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    用友网络
+                </div>
+
+                <div class="green">
+                    24.6 -1.13%
+                </div>
+            </li>
+            <li id="sz000997" onmouseover="mouseOver(sz000997)" data-inverted="" data-tooltip="当前价: 13.68  涨跌幅: 0.00%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    新 大 陆
+                </div>
+
+                <div class="green">
+                    13.68 0.00%
+                </div>
+            </li>
+            <li id="sh600100" onmouseover="mouseOver(sh600100)" data-inverted="" data-tooltip="当前价: 4.45  涨跌幅: -0.22%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    同方股份
+                </div>
+
+                <div class="green">
+                    4.45 -0.22%
+                </div>
+            </li>
+            <li id="sz002362" onmouseover="mouseOver(sz002362)" data-inverted="" data-tooltip="当前价: 16.92  涨跌幅: 1.01%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    汉王科技
+                </div>
+
+                <div class="red">
+                    16.92 1.01%
+                </div>
+            </li>
+            <li id="sz002230" onmouseover="mouseOver(sz002230)" data-inverted="" data-tooltip="当前价: 34.36  涨跌幅: 0.61%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    科大讯飞
+                </div>
+
+                <div class="red">
+                    34.36 0.61%
+                </div>
+            </li>
+            <li id="sz002714" onmouseover="mouseOver(sz002714)" data-inverted="" data-tooltip="当前价: 47.1  涨跌幅: -0.76%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    牧原股份
+                </div>
+
+                <div class="green">
+                    47.1 -0.76%
+                </div>
+            </li>
+            <li id="sz000876" onmouseover="mouseOver(sz000876)" data-inverted="" data-tooltip="当前价: 12.62  涨跌幅: -0.24%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    新 希 望
+                </div>
+
+                <div class="green">
+                    12.62 -0.24%
+                </div>
+            </li>
+            <li id="sz002157" onmouseover="mouseOver(sz002157)" data-inverted="" data-tooltip="当前价: 4.14  涨跌幅: -1.66%" data-position="top center" data-variation="large" >
+                <div class="stock-name">
+                    正邦科技
+                </div>
+
+                <div class="green">
+                    4.14 -1.66%
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+    function mouseOver(id){
+        $('#'+id)
+        .popup({
+            duration:0
+        })
+        .popup('show')
+    }
+
+    // 30秒刷新
+    setTimeout(function(){
+        window.location.reload();
+    }, 30000)
+</script>
+</body>
+</html>
