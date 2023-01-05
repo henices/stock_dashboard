@@ -5,6 +5,9 @@ A fork of https://github.com/geeeeeeeek/stock_page
 - 调整看板界面
 - 规避新浪网的查询检查
 
+![image](https://user-images.githubusercontent.com/929715/210698581-4c1f36c0-b69e-4df6-bef3-6147e3beb96c.png)
+
+
 ## 简介
 
 python开发的股市行情看板
