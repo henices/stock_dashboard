@@ -5,6 +5,10 @@ A fork of https://github.com/geeeeeeeek/stock_page
 - 调整看板界面
 - 规避新浪网的查询检查
 
+```bash
+while true; do python3 handle_csv.py ; sleep 60; done
+```
+
 ## 简介
 
 python开发的股市行情看板
@@ -20,7 +24,7 @@ python开发的股市行情看板
 
 ## 运行方式
 
-python handle_csv.py 即可生成index.html
+`python handle_csv.py` 即可生成index.html
 
 ---
 
