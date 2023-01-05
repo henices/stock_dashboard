@@ -9,6 +9,8 @@ A fork of https://github.com/geeeeeeeek/stock_page
 while true; do python3 handle_csv.py ; sleep 60; done
 ```
 
+![image](https://user-images.githubusercontent.com/929715/210698581-4c1f36c0-b69e-4df6-bef3-6147e3beb96c.png)
+
 ## 简介
 
 python开发的股市行情看板
